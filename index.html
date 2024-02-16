@@ -84,10 +84,10 @@
             </div>
         </section>
         <!-- Life Score -->
-        <section class="flex min-h-screen justify-center items-center hidden">
+        <section id="life-score" class="flex min-h-screen justify-center items-center hidden">
             <div class="text-white space-y-6 border-2 rounded-xl p-[44px] text-center bg-[#ffffff33]">
-                <h1 class="text-6xl font-bold">Score : <span>14</span></h1>
-                <button class="text-xl rounded-full btn  text-black border-none hover:text-black">Play Now
+                <h1 class="text-6xl font-bold">Score : <span id="final-score">0</span></h1>
+                <button onclick="gameOver()" class="text-xl rounded-full btn  text-black border-none hover:text-black">Play Now
               </button>
               <p>Practice will make you Pro</p>
             </div>
